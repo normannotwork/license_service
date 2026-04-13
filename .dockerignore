@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+venv/
+*.db
+*.sqlite3
+
+# Игнорируем локальные бинарники и кэш CMake
+Prog-license-generator
+licgen/build/
+licgen/cmake-build-*/
+.idea/
